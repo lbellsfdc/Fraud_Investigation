@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_Indicator__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISPICKVAL(Status__c , &quot;Open&quot;) , IMAGE(&quot;/resource/AllegationStatus/Open32.png&quot;, &quot;Open&quot;),
+
+IF(ISPICKVAL(Status__c , &quot;Pending Approval&quot;) , IMAGE(&quot;/resource/AllegationStatus/Pending32.png&quot;, &quot;Pending Approval&quot;),
+
+IF(ISPICKVAL(Status__c , &quot;Closed&quot;) , IMAGE(&quot;/resource/AllegationStatus/Closed32.png&quot;, &quot;Closed&quot;),
+
+IF(ISPICKVAL(Status__c , &quot;Civil&quot;) , IMAGE(&quot;/resource/AllegationStatus/Civil32.png&quot;, &quot;Civil&quot;),
+
+IF(ISPICKVAL(Status__c , &quot;Founded&quot;) , IMAGE(&quot;/resource/AllegationStatus/Founded32.png&quot;, &quot;Founded&quot;),
+
+IF(ISPICKVAL(Status__c , &quot;Prosecuted&quot;) , IMAGE(&quot;/resource/AllegationStatus/Prosecuted32.png&quot;, &quot;Prosecuted&quot;),
+
+IF(ISPICKVAL(Status__c , &quot;Unfounded&quot;) , IMAGE(&quot;/resource/AllegationStatus/Unfounded32.png&quot;, &quot;Unfounded&quot;),
+
+IF(ISPICKVAL(Status__c, &quot;Null&quot;), null,null))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Status Indicator</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

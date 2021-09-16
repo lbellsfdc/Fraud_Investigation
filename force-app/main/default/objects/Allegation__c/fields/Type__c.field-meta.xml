@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Failure to File Return</fullName>
+                <default>false</default>
+                <label>Failure to File Return</label>
+            </value>
+            <value>
+                <fullName>Failure to Pay Tax</fullName>
+                <default>false</default>
+                <label>Failure to Pay Tax</label>
+            </value>
+            <value>
+                <fullName>Failure to Withhold Tax</fullName>
+                <default>false</default>
+                <label>Failure to Withhold Tax</label>
+            </value>
+            <value>
+                <fullName>False/Altered Documents</fullName>
+                <default>false</default>
+                <label>False/Altered Documents</label>
+            </value>
+            <value>
+                <fullName>False Deductions</fullName>
+                <default>false</default>
+                <label>False Deductions</label>
+            </value>
+            <value>
+                <fullName>False Exemption</fullName>
+                <default>false</default>
+                <label>False Exemption</label>
+            </value>
+            <value>
+                <fullName>Kickback</fullName>
+                <default>false</default>
+                <label>Kickback</label>
+            </value>
+            <value>
+                <fullName>Motor Vehicle</fullName>
+                <default>false</default>
+                <label>Motor Vehicle</label>
+            </value>
+            <value>
+                <fullName>Multiple Filing</fullName>
+                <default>false</default>
+                <label>Multiple Filing</label>
+            </value>
+            <value>
+                <fullName>Narcotics Income</fullName>
+                <default>false</default>
+                <label>Narcotics Income</label>
+            </value>
+            <value>
+                <fullName>Organized Crime</fullName>
+                <default>false</default>
+                <label>Organized Crime</label>
+            </value>
+            <value>
+                <fullName>Public/Political Corruption</fullName>
+                <default>false</default>
+                <label>Public/Political Corruption</label>
+            </value>
+            <value>
+                <fullName>Unreported Assets</fullName>
+                <default>false</default>
+                <label>Unreported Assets</label>
+            </value>
+            <value>
+                <fullName>Unreported Income</fullName>
+                <default>false</default>
+                <label>Unreported Income</label>
+            </value>
+            <value>
+                <fullName>Unsubstantiated Income</fullName>
+                <default>false</default>
+                <label>Unsubstantiated Income</label>
+            </value>
+            <value>
+                <fullName>Wagering/Gambling</fullName>
+                <default>false</default>
+                <label>Wagering/Gambling</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
